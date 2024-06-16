@@ -1,0 +1,12 @@
+[package]
+name = "roblox-multi-instance"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+dialoguer = "0.11.0"
+interprocess = { version = "2.2.0", features = ["tokio"] }
+tokio = { version = "1.38.0", features = ["full"] }
+
+[build-dependencies]
+cc = "1.0.99"
